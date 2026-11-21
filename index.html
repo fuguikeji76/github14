@@ -925,18 +925,35 @@ function copyRoomNum() {
 </script>
 
    
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/6a86b49727f5991d51f6124a/1k0f32tfp';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+<style>
+/* 右下角悬浮客服圆按钮 */
+.customer-btn{
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#ff3333,#ff6644);
+    box-shadow: 0 4px 12px rgba(255,50,50,0.35);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    font-size:26px;
+    text-decoration:none;
+    z-index:9999;
+    transition: all 0.25s ease;
+}
+.customer-btn:hover{
+    transform: scale(1.08);
+    box-shadow: 0 6px 18px rgba(255,50,50,0.45);
+}
+</style>
+</head>
+<body>
+
+<!-- 把href替换成你的客服链接 -->
+<a href="https://td1888.xyz/fx/" target="_blank" class="customer-btn">客服</a>
 </body>
 </html>
